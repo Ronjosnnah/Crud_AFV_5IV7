@@ -6,10 +6,11 @@ var bodyParser= require('body-parser');
 
 var con= mysql.createConnection({
 
-    host: 'localhost',
+    host: 'containers-us-west-41.railway.app',
     user: 'root',
-    password: 'K2S0pumas77',
-    database: 'starwars'
+    password: 'nW77xSdsFP5XU5luh8Ux',
+    database: 'railway',
+    port: '7914'
 });
 
 con.connect();
