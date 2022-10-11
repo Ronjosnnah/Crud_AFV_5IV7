@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+    font-size: larger;
+}
+
+body
+{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.input
+{
+    border-color: black;
+    background-color: #30cfd0;
+}
