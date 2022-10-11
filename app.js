@@ -41,9 +41,11 @@ app.post('/agregarPersonaje', (req, res)=>{
     );
 });
 
-app.listen(3232, ()=>{
+const PORT = process.env.PORT || 7914;
 
-    console.log("Servicio en el puerto 3232");
+app.listen(PORT, ()=>{
+
+    console.log("Servicio en el puerto 7914");
 }
 
 )
